@@ -38,11 +38,11 @@ export default function Home() {
               </button>
 
               <button className="w-full h-12 bg-[#333333ff] font-semibold rounded-md cursor-pointer hover:bg-[#c5f82aff] hover:text-black hover:cursor-black">
-                Frontend Mentor{" "}
+                Frontend Mentor
               </button>
 
               <button className="w-full h-12 bg-[#333333ff] font-semibold rounded-md cursor-pointer hover:bg-[#c5f82aff] hover:text-black ">
-                LinkedIn{" "}
+                LinkedIn
               </button>
 
               <button className="w-full h-12 bg-[#333333ff] font-semibold rounded-md cursor-pointer hover:bg-[#c5f82aff] hover:text-black ">
