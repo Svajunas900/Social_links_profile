@@ -23,14 +23,14 @@ export default function Home() {
           <div className="h-4/5 flex flex-col items-center">
             <div className="flex flex-col justify-center items-center pb-8">
               <h1 className="text-[#ffffffff] font-bold text-[24px]">
-                Jessica Randall
+                <p>Jessica Randall</p>
               </h1>
               <h2 className="text-[#c5f82aff] text-[14px] font-semibold">
                 London, United Kingdom
               </h2>
             </div>
             <p className="text-[#ffffffff] text-[14px] pb-2">
-              "Front-end developer and avid reader."
+              &quot;Front-end developer and avid reader.&quot;
             </p>
             <div className="grid grid-cols-1 gap-y-4 w-full  p-10 pt-4 text-[#ffffffff] text-[14px]">
               <button className="w-full h-12 bg-[#333333ff] font-semibold rounded-md cursor-pointer hover:bg-[#c5f82aff] hover:text-black active:cursor-[url('/images/black-cursor.png')_auto]">
