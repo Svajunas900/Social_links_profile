@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "600", "700"] });
@@ -12,10 +12,13 @@ export default function Home() {
       >
         <div className=" w-md h-full bg-[#1f1f1fff] rounded-2xl ">
           <div className="h-1/5 flex justify-center items-center mt-8 mb-4">
-            <img
+            <Image
               className="w-24 rounded-full"
               src="/images/avatar-jessica.jpeg"
-            ></img>
+              alt="Jessica Avatar"
+              width={96}
+              height={96}
+            ></Image>
           </div>
           <div className="h-4/5 flex flex-col items-center">
             <div className="flex flex-col justify-center items-center pb-8">
