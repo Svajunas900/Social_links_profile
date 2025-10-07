@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div
-        className={`${inter.className} w-screen h-full bg-[#141414ff] flex justify-center items-center pt-[15vh] pb-[15vh]`}
+        className={`${inter.className} w-screen min-h-screen bg-[#141414ff] flex justify-center items-center pt-[15vh] pb-[15vh]`}
       >
         <div className=" w-md h-full bg-[#1f1f1fff] rounded-2xl ">
           <div className="h-1/5 flex justify-center items-center mt-8 mb-4">
